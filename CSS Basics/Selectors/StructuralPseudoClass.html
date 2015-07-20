@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>  Structural Pseudo Classes</title>
+
+		<style>
+		table{
+			width: 50%;
+		}
+		tr{
+			height: 30px;
+
+		}
+		body{
+			font-family: arial;
+		}
+
+		tr:first-child{
+			background-color: red;
+		
+		}
+
+		tr:nth-child(3n+1){
+			background-color: lightgreen;
+		}
+		tr:nth-child(even){
+			background-color: orange;
+		}
+
+		tr:last-child{
+			background-color: red;
+		}
+		</style>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<td>Country</td>
+				<td>Capital</td>
+				<td>Currency</td>
+			</tr>
+			<tr>
+				<td>France</td>
+				<td>Paris</td>
+				<td>Euro</td>
+			</tr>
+			<tr>
+				
+				<td>England</td>
+				<td>London</td>
+				<td>Pounds</td>
+			</tr>
+			<tr>
+				<td>Germany</td>
+				<td>Berlin</td>
+				<td>Euro</td>
+
+			</tr>
+			<tr>
+				<td>United States</td>
+				<td>Washigton D.C</td>
+				<td>Dollars</td>
+
+			</tr>
+		</table>
+	</body>
+
+</html>

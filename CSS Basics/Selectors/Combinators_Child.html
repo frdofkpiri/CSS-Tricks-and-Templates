@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+		child combinators
+		</title>
+			<style>
+
+				body{
+					font-family: arial, verdana;
+					font-size: 20px;
+				}
+
+				span >p {
+					color : red;
+				}
+
+				span > b>i>p  {
+					color: blue;
+				}
+			</style>
+		
+	</head>
+
+
+	<body>
+
+		<span>
+		<p> This is P and a direct child of the span </p>
+			<b>
+				<p> This p is grand child of span</p>
+			</b>
+			<b><i>
+				<p> This is great great cgrand child of a span </p>
+			</i></b>
+		</p>
+		</span>
+
+	</body>
+</html>

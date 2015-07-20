@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+Skewing in CSS3
+
+<style>
+	div{
+		width: 240px;
+		height: 50px;
+		background-color: lightgreen;
+		text-align: center;
+		margin-left: 100px;
+
+	}
+	.skewclockwise{
+
+		-ms-transform   : skew(10deg);
+		-webkit-transform : skew(10deg);
+		-moz-transform :  skew(10deg);
+		-o-transform : skew(10deg);
+	}
+
+		.rotateanticlock{
+		-ms-transform   : skew(-10deg);
+		-webkit-transform : skew(-10deg);
+		-moz-transform :  skew(-10deg);
+		-o-transform : skew(-10deg);
+	}
+
+	.skewRadian{
+			-ms-transform   : skew(-0.5rad);
+		-webkit-transform : skew(-0.5rad);
+		-moz-transform :  skew(-0.5rad);
+		-o-transform : skew(-0.5rad);
+	}
+
+
+	.skewXandY{
+		-ms-transform : skew(15deg , 15deg);
+		-webkit-transform : skew(15deg , 15deg);
+		-moz-transform : skew(15deg , 15deg);
+		-o-transform : skew(15deg , 15deg);
+	}
+
+	.skewX{
+
+		-ms-transform : skewX(15deg);
+		-webkit-transform : skewX(15deg);
+		-moz-transform : skewX(15deg);
+		-o-transform : skewX(15deg);
+	}
+
+	.skewY{
+
+		-ms-transform : skewX(15deg);
+		-webkit-transform : skewX(15deg);
+		-moz-transform : skewX(15deg);
+		-o-transform : skewX(15deg);
+	}
+
+</style>
+</head>
+
+<body>
+	
+	<div class="skewclockwise">
+			This rotation of 10degree in clockwise
+	</div>
+	<br>
+
+	<div class="rotateanticlock">
+			This is rotation of 10 degree anti clockwise
+	</div>
+	<br>
+
+	<div class=".skewRadian">
+	Skewing with Radian by 15degree
+	</div>
+	<br>
+<div class="skewXandY">
+	skewing with X = 15deg and Y= 15deg
+	</div>
+
+	<div class="skewX">
+	SkewX rotating 15degree
+	</div>
+
+
+	<div class="skewY">
+	SkewY rotating 15degree
+	</div>
+</body>
+
+</html>

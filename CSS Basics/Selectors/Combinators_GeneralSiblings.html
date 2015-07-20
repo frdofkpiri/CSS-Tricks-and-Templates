@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>
+		general siblings
+		</title>
+			<style>
+
+				body{
+					font-family: arial, verdana;
+					font-size: 20px;
+				}
+
+				p ~ b {
+					color : red;
+				}
+
+				.spanclass{
+					background-color: blue;
+				}
+
+				h3.spanclass ~ p{
+					color: lightgreen;
+				}
+			</style>
+		
+	</head>
+
+
+	<body>
+
+		<span>
+		<p> This is P and a direct child of the span </p>
+			<b>
+				<p> This p is grand child of span</p>
+			</b>
+			<b> this is second grand child of span</b>
+			<b><i>
+				<p> This is great great cgrand child of a span </p>
+			</i></b>
+		
+		</span>
+
+		<div>
+			<h3 class="spanclass"> Using DIV </h3>
+			<p>This is first child of div</p>
+			<p> This is second child of div but it is bold</p>
+		</div>
+
+	</body>
+</html>

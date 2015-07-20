@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+Scaling in CSS3
+
+<style>
+	div{
+		width: 240px;
+		height: 50px;
+		background-color: lightgreen;
+		text-align: center;
+
+	}
+	.scalesmall{
+		-ms-transform   : scale(0.75);
+		-webkit-transform : scale(0.75);
+		-moz-transform : scale(0.75);
+		-0-transform : scale(0.75);
+	}
+
+
+		.scaleslarger{
+		-ms-transform   : scale(1.5);
+		-webkit-transform : scale(1.5);
+		-moz-transform : scale(1.5);
+		-0-transform : scale(1.5);
+	}
+
+	.scaleXandY{
+		-ms-transform : scale(2.0, 1.5);
+		-webkit-transform : scale(2.0, 1.5);
+		-moz-transform : scale(2.0, 1.5);
+		-o-transform : scale(2.0, 1.5);
+	}
+
+	.scaleX{
+		-ms-transform : scaleX(2.0);
+		-webkit-transform : scaleX(2.0);
+		-moz-transform : scaleX(2.0);
+		-o-transform : scaleX(2.0);
+	}
+
+.scaleY{
+		-ms-transform : scaleY(2.0);
+		-webkit-transform : scaleY(2.0);
+		-moz-transform : scaleY(2.0);
+		-o-transform : scaleY(2.0);
+	}
+</style>
+</head>
+
+<body>
+	
+	<div class="scalesmall">
+			This is for scale small
+	</div>
+	<br>
+
+	<div class="scaleslarger">
+			This is for scale small
+	</div>
+	<br>
+
+	<div class=".scaleXandY">
+	Scaling X and Y separately with X value is 2.0 and Y = 1.5
+	</div>
+	<br>
+<div class="scaleX">
+	Scaling X value is 4
+	</div>
+
+	<br>
+	<br>
+<div class="scaleY">
+	Scaling Y value is 2
+	</div>
+</body>
+
+</html>

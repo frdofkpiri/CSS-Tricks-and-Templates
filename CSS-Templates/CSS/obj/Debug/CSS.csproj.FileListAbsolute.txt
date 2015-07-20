@@ -1,0 +1,6 @@
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\bin\CSS.dll.config
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\bin\CSS.dll
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\bin\CSS.pdb
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\obj\Debug\CSS.csprojResolveAssemblyReference.cache
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\obj\Debug\CSS.dll
+c:\users\sony\documents\visual studio 2013\Projects\CSSSolutionsMVA\CSS\obj\Debug\CSS.pdb

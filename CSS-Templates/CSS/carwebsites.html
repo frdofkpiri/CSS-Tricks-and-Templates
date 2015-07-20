@@ -1,0 +1,338 @@
+  <!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Untitled Document</title>
+      <meta name="viewport" content="width-device-width,initial-scale=1.0">
+  
+  <style>
+  body{
+      background: #F1F0D1;
+      font-family : Verdana, Tohoma, Arial, sans-serif;
+      font-size: 18px;
+      overflow: auto;
+      }
+  h1,h2,h3{
+      text-align: center;
+      padding-left = 5%;
+      color: #878E63;
+      }
+      
+  p{
+      padding: 2px;
+      color : #878E63;
+      }
+  
+  img{
+      text-align: center;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+      }
+      
+  .section img{
+      height : 250;
+      width : 350;
+      text-align: center;
+      }	
+      
+  #wrapper{
+	margin : 0 auto;
+	max-width : 1020px;
+      width: 98%
+      background: #FEFBE8;
+	border: 1px solid #878E63;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0px rgba(12, 3 , 25 , 0.8);
+
+      }
+  .header img{
+      padding: 5px;
+      height: 200px;
+      width: 375px;	
+      }
+  
+  #callout{
+      width : 100%;
+      height : auto;
+      background : #878E63;
+      overflow: hidden;
+      border-radius:7px
+      }
+      
+  #callout p{
+      text-align: right;
+      color: #F1F0D1;
+      font-size : 13px;
+      padding: 2%
+  
+      }
+  
+  #callout p a {
+      color: #F1F0D1;
+      text-decoration : none;
+      }
+  header{
+	  width: 96%;
+	  min-height: 125px;
+	  padding: 5px;
+	  text-align:center;
+	  }
+	  
+	nav ul{
+		list-style: none;
+		margin: 0;
+		padding-left: 50px;
+			
+		}
+	nav ul li{
+		float: left;
+		border: 1px solid #878E63;
+		width: 15%;
+				
+		}
+	nav ul li a{
+		background: #F1F0D1;
+		display: block;
+		padding: 5% 12%;
+		font-weight: bold;
+		font-size: 18px;
+		color: #878E63;
+		text-decoration:none;
+		text-align:center;
+		
+		}
+	nav ul li a:hover, nav ul li.active a{
+			background-color: #878E63;
+			color: #F1F0D1;
+		}
+	.banner img{
+		width: 100%;
+		border-top: 1px solid #878E63;
+				border-bottom: 1px solid #878E63;
+		}
+		
+	.clearfix{
+		clear: both;
+		}
+	.left-col{
+		width: 55%;
+		float: left;
+		margin: -2% 1% 1% 1%;
+
+		
+		}
+	.sidebar{
+		width: 40%;
+		float: right;
+		margin : 1%;
+		text-align: center;
+		}
+		
+	.therapy{
+		float : left;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+		padding: 1%;
+		}
+	.section{
+		width: 29%;
+		float: left;
+		margin: 2% 2%;
+		text-align: left;
+		}
+	footer{
+		background: #878E63;
+		width: 100%;
+		overflow: hidden;
+		}
+	footer p, footer h3{
+		color: #F1F0D1;
+		}
+
+	footer p a{
+			color: #F1F0D1;
+			text-decoration:none;
+		}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		}
+	li{
+		display: inline;
+		}
+	ul li img{
+		height: 50px;
+		margin: 10px;
+		
+		}
+	#dontpic{
+				transition : all 2s;
+		}
+	#dontpic :hover{
+		transform: scale(1.5) translate(5px, 2px) rotate(5deg)
+		}
+		
+	/*  Responsible */	
+	@media screen and (max-width: 478px){
+		body{
+				font-size: 13px;
+			
+			}
+	}
+	@media screen and (max-width: 740px){
+		nav{
+				width: 100%
+				margin-bottom: 10px;
+			}
+		nav ul{
+			list-style: none;
+			margin: 0 auto;
+			padding-left: 0		
+			}
+		nav ul li{
+			text-align: center;
+			margin-left: 0 auto;
+			width: 100%;
+			border-top: 1px solid #878E63;
+			border-right: 0px solid #878E63;
+			border-bottom: 1px solid #878E63;
+			border-left: 0px solid #878E63;
+			
+			}
+		nav ul li a{
+			padding: 8px 0;
+			font-size: 16px;
+			
+			}
+		.left-col{
+			width: 100%;
+			}
+		.sidebar{
+						width: 100%;
+			}
+		.section{
+						width: 100%;
+						float: left;
+						margin: 0;
+						
+			}
+		.section2{
+			width: 100%;
+			float: left;
+			margin:0;
+			}
+	}	
+  </style>
+  
+  </head>
+  
+  
+  <body>
+  <div id="wrapper">
+          <div id="callout">
+            <p>Call us at +22238532</p>
+      </div>
+      <header class="header">
+          <a href="#"><img src="images\Honda_Logo.png" alt="Cars by BMW" title=" BMW New Cars"  ></a>
+       </header>
+      <nav>
+          <ul>
+              <li class='active'><a href="#"> Home</a></li>
+              <li><a href="#"> Facility</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Hours</a></li>
+              <li><a href="#">Contacts</a></li>
+          </ul>
+          <div class="clearfix"></div>
+      </nav>
+      
+      <div class="banner">
+          <a href="#"><img src="images\firstcar.jpg" alt="Red Sexy Cars" title=" Red Stylish Amazing Car" ></a>
+          
+      </div>
+         <center><img src="images\3c.jpg"></center>
+  
+  <section class="left-col">
+      <p style="text-indent:50px;">&nbsp;
+      </p>
+      <p style="text-indent:50px;">Life is all about choices. You chose the way of life you want to live. It means sacrificing things for the sake of the things which we want to do in life, whether you want to be watch movies with friends, or hang out with them or sit alone in a room and write your story. The choice is to be made and it is you who has to! </p>
+      <p style="text-indent:50px;">
+      People say for writing you need to write then only you can write something. But I think one has to a good reader first then only that person can be a good writer. These two things are the best things as they neither leave you nor they ever betrays you. The thing which we read impacts our life in a very profound way, so we should always read things which benefits us and which help us grow in our life. It is like a drug if you can make yourself better with it or you can make yourself in worse condition. What goes in our mind becomes our thoughts and soon our thoughts becomes our actions. So, we need to be careful about what we are reading!
+      </p>
+  </section>    
+  
+  <aside class="sidebar">
+      <div class="therapy">
+      <img src="images/work .jpg">
+      </div>
+  </aside>   
+          <div class="clearfix"></div>
+   <div class="section">
+      <h3> Learn Love</h3>
+      <img src="images\follow.jpg">
+      <p>"Love what you do and do what you love. Don't listen to anyone else who tells you not to do it. You do what you want, what you love. Imagination should be the center of your life." 
+  ― Ray Bradbury</p>
+   </div>    
+   
+   <div class="section">
+      <h3>Live Your Life</h3>
+      <img src="images\live.jpg">
+      <p>
+  "You know you’re not perfect and that’s good. Perfect is boring. You have a lot to offer. A lot more to experience and so many things to learn. There are more pages to fill up so act your age." 
+  ― Happy Positivity</p>
+   </div>    
+   
+   <div class="section">
+      <h3>Show Gratitude</h3>
+      <img src="images\gratitude.jpg">
+      <p>"As we express our gratitude, we must never forget that the highest appreciation is not to utter words but to live by them." -John F. Kennedy</p>
+   </div>    
+   <div class="clearfix"></div>
+  
+   <center><img src="images/metanoia.png"></center>
+     
+     
+     <footer>
+      <div class="section">
+        <p> Motivation by Saeed     
+        </p> 
+        <p> <b> +33 7 53 69 92 28</b><br>
+          102 rue juiliette savar Creteil 9400 <br>
+        srsiddiqui@hotmail.com</p>
+      </div>
+      
+     <div class="section">
+     	<p> Connect with US! </p>
+          <ul>
+              <li> <a href="#"/><img src="images\facebookicon.png"/></li>
+              <li> <a href="#"/><img src="images/twittericon.png"/></li>
+              <li> <a href="#"/><img src="images/rssicon.png"/></li>
+          </ul>
+      
+      </div>
+     <div class="section">
+		
+     <li>	
+     <p>Remember always!</p>
+     
+     <figure id="dontpic">
+     
+       <img src="images/dontjust talk.jpg"/></li>
+     <figcaption> Always remember this</figcaption>
+     
+     </figure>
+     
+     
+      </div>
+     
+     </footer>
+  </div>
+  
+      <p style="text-align:center; ">&#169; Copyright - Motivation by Saeed, 2014. </p>
+  </body>
+  </html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+Rotation in CSS3
+
+<style>
+	div{
+		width: 240px;
+		height: 50px;
+		background-color: lightgreen;
+		text-align: center;
+		margin-left: 100px;
+
+	}
+	.rotateclock{
+		-ms-transform   : rotate(10deg);
+		-webkit-transform : rotate(10deg);
+		-moz-transform :  rotate(10deg);
+		-0-transform : rotate(10deg);
+	}
+
+
+		.rotateanticlock{
+		-ms-transform   : rotate(-10deg);
+		-webkit-transform : rotate(-10deg);
+		-moz-transform :  rotate(-10deg);
+		-o-transform : rotate(-10deg);
+	}
+
+	.rotateradian{
+		-ms-transform   : rotate(-0.5rad);
+		-webkit-transform : rotate(-0.5rad);
+		-moz-transform :  rotate(-0.5rad);
+		-o-transform : rotate(-0.5rad);
+	}	
+
+
+	.translateandrotate{
+		-ms-transform : translate(100px) rotate(10deg);
+		-webkit-transform : translate(100px) rotate(10deg);
+		-moz-transform : translate(100px) rotate(10deg);
+		-o-transform : translate(100px) rotate(10deg);
+
+	-ms-transform-origin : right top;
+		-webkit-transform-origin : right top;
+		-moz-transform-origin : right top;
+		-o-transform-origin : right top;
+
+			
+	}
+
+
+</style>
+</head>
+
+<body>
+	
+	<div class="rotateclock">
+			This rotation of 10degree in clockwise
+	</div>
+	<br>
+
+	<div class="rotateanticlock">
+			This is rotation of 10 degree anti clockwise
+	</div>
+	<br>
+
+	
+	<br>
+<div class="translateandrotate">
+	first translate then rotate
+	</div>
+
+	<div class=".rotateradian">
+	rotate radian
+
+	</div>
+</body>
+
+</html>
